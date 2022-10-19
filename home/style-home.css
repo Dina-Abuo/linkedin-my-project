@@ -1,0 +1,411 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #f3f2ef;
+ }
+
+ .flex {
+     display: flex;
+ }
+
+ .flexx {
+     display: flex;
+     align-items: center;
+ }
+
+ .flexxx {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .mt8 {
+     margin-top: 8px;
+ }
+
+ .mt15 {
+     margin-top: 15px;
+ }
+
+ .mt20 {
+     margin-top: 15px;
+ }
+
+ .mb20 {
+     margin-bottom: 20px;
+ }
+
+ .mr10 {
+     margin-right: 10px;
+ }
+
+ .w25 {
+     width: 25px;
+ }
+
+ .w16 {
+     width: 16px;
+ }
+
+ .w40 {
+     width: 40px;
+ }
+
+ .w70 {
+     width: 70px;
+ }
+
+ .w30 {
+     width: 30px;
+ }
+
+ .h25 {
+     height: 25px;
+ }
+
+ .border-radius2 {
+     border-radius: 2px;
+ }
+
+ .border-radius {
+     border-radius: 50%;
+ }
+
+ .opcity {
+
+     opacity: .5;
+ }
+
+ .font13 {
+     font-size: 13px;
+ }
+
+ .font16 {
+     font-size: 16px;
+ }
+
+ .font18 {
+     font-size: 18px;
+ }
+
+ .bold {
+     font-weight: 700;
+ }
+
+ .color-grey {
+     color: grey;
+ }
+
+ .color-blue {
+     color: #0a66c2;
+ }
+
+ .link-black {
+     color: #000;
+     text-decoration: none;
+     display: block;
+ }
+
+ .link-gray {
+     color: gray;
+     text-decoration: none;
+     display: block;
+ }
+
+ .border-button {
+     border-bottom: 1px solid #ccc;
+ }
+
+ .p {
+     font-weight: 400;
+     font-size: 16px;
+ }
+
+ .image-profile {
+
+     border-radius: 50px;
+     width: 50px;
+     height: 50px;
+
+ }
+
+ .padding {
+     padding: 20px;
+ }
+
+ .padding-b {
+
+     padding-bottom: 20px;
+ }
+
+ /**************************************************   header     *******************************************************/
+
+ .header-page {
+     width: 100%;
+     height: 50px;
+     position: sticky;
+     top: 0;
+     background-color: white;
+     align-items: center;
+     z-index: 9;
+     border-bottom: 1px solid #ccc;
+ }
+
+ log {
+     width: 20%;
+     /* background-color: blueviolet; */
+     justify-content: end;
+ }
+
+ .img-log {
+     width: 39px;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+
+ /************* Search ************/
+ .head-form {
+     margin-left: 20px;
+     width: 15%;
+     background-color: #eee;
+     height: 80%;
+     border-radius: 5px;
+     align-items: center;
+ }
+
+ .icon-search {
+     border: unset;
+     background-color: unset;
+     opacity: .5;
+ }
+
+ .box-search {
+     border: unset;
+     height: 35px;
+     text-align: start;
+     text-indent: 10px;
+     font-weight: bold;
+     opacity: .5;
+     background-color: unset;
+ }
+
+ /************/
+
+ nav {
+     width: 50%;
+     /* background-color: brown; */
+     margin: auto 15% auto 8%;
+ }
+
+ .list-nav {
+     list-style: none;
+     justify-content: space-between;
+ }
+
+ .list-nav il {
+     cursor: pointer;
+     text-align: center;
+ }
+
+ /********************************************** contaner page ****************************************************************/
+ .contaner-page {
+     width: 100%;
+     height: 1000px;
+     margin: 20px 10.5% 0 10.5%;
+
+ }
+
+ /**********************left***********************/
+ .left {
+     width: 15%;
+     border-radius: 5px;
+
+ }
+
+
+ .left2 {
+     position: sticky;
+     top: 20px;
+     width: 100%;
+     border-radius: 10px;
+     background-color: white;
+     padding: 20px;
+     margin-bottom: 5px;
+     border: 1px solid #ccc;
+ }
+
+ .left1 {
+
+     width: 100%;
+     border-radius: 10px;
+     background-color: white;
+
+     margin-bottom: 5px;
+     border: 1px solid #ccc;
+ }
+
+
+
+ ol li {
+     list-style: url('./image/R\ \(5\).png');
+     margin-left: 10px;
+ }
+
+
+
+
+ /********************** center ****************************/
+ .center {
+     width: 40%;
+     border-radius: 5px;
+     margin: 0 1.5%;
+ }
+
+ .head-center {
+     width: 100%;
+     border-radius: 10px;
+     padding: 20px;
+     background-color: white;
+     border: 1px solid #ccc;
+ }
+
+ .input-sreach {
+     border-radius: 20px;
+     width: 90%;
+     height: 50px;
+     text-indent: 20px;
+     cursor: pointer;
+     border: 2px solid #ccc;
+ }
+
+ .icon-cent {
+     background-color: aqua;
+     width: 100%;
+     border-radius: 10px;
+     padding: 10px;
+     background-color: white
+ }
+
+ .post {
+     width: 100%;
+     border-radius: 10px;
+     padding: 20px;
+     background-color: white;
+     border: 1px solid #ccc;
+ }
+
+ .imge-post {
+
+     width: 100%;
+ }
+
+
+ .bt {
+     border-top: 1px solid #ccc;
+ }
+
+ .pt {
+     padding-top: 10px;
+ }
+
+ .position {
+     position: relative;
+     left: 50%;
+     width: 30%;
+     text-align: end;
+ }
+
+ .image-like1 {
+     margin: 20px 5px auto 5px;
+
+ }
+
+ .image-like3 {
+     margin: 20px 5px auto -5px;
+ }
+
+ .image-like1,
+ .image-like3 {
+     width: 20px;
+     height: 20px;
+ }
+
+ .image-like2 {
+     margin: 20px 5px auto -9px;
+ }
+
+ .image-like4 {
+     margin: 20px 5px auto -7px;
+ }
+
+ /**********************right***********************/
+
+ .right {
+
+     width: 21%;
+     border-radius: 5px;
+     /* background-color: rgb(111, 53, 162); */
+
+ }
+
+
+ .right1 {
+     justify-content: center;
+     background-color: white;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+ }
+
+ .right2 {
+     border-radius: 5px;
+     justify-content: center;
+     background-color: white;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+ }
+
+ .button-gray {
+     width: 120px;
+     height: 35px;
+     border-radius: 20px;
+     border: 1px solid rgb(137, 131, 131);
+     color: gray;
+     font-size: 17px;
+     cursor: pointer;
+     margin-top: 20px;
+ }
+
+ .right3,
+ .right1 {
+     width: 100%;
+     border-radius: 5px;
+     padding: 20px;
+
+ }
+
+ .right3 {
+     background-color: #f3f2ef;
+     position: sticky;
+     top: 20px;
+ }
+
+ .link-gray:hover {
+     text-decoration: underline;
+     color: #0a66c2;
+ }
+
+ .link-black:hover {
+     background-color: #ccc;
+     border-radius: 20px;
+     width: auto;
+ }
+
+ .button-gray:hover {
+     background-color: #ccc;
+     border: 3px solid #000;
+
+ }
